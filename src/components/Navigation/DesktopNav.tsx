@@ -2,7 +2,6 @@
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const DesktopNav = () => {
   const location = useLocation();
