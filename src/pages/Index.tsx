@@ -1,11 +1,13 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-[calc(100vh-8rem)] flex items-center justify-center">
+      <div className="text-center px-4">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your App</h1>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          Start exploring with our beautiful navigation system. Desktop users will see a top navbar,
+          while mobile users can use the convenient bottom tab bar.
+        </p>
       </div>
     </div>
   );
